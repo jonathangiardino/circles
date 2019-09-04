@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript" src="assets/js/lib/paper-full.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js"></script>
+  <script src="https://kit.fontawesome.com/eeaa02e6cc.js"></script>
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Circles</title>
 
@@ -206,7 +207,7 @@
       circles[i].scale(.9);
       if(circles[i].area < 1){
       circles[i].remove();
-      circles.splice(i, 1); 
+      circles.splice(i, 1);
       console.log(circles);
     }
     }
@@ -218,7 +219,7 @@
 
 <body>
   <canvas id="myCanvas" resize></canvas>
-  <h1 id="circles-logo">Circles</h1>
+  <h1 id="circles-logo">Circles <a href="https://github.com/jonathangiardino/circles" target="_blank"><i class="fab fa-github"></i></a></h1>
   <div class=caption>
     <p>press any letter on your keyboard.</p>
   </div>
